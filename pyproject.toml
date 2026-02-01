@@ -9,3 +9,8 @@ dependencies = [
     "pip>=26.0",
     "rpi-gpio>=0.7.1",
 ]
+
+[dependency-groups]
+test = [
+    "pylint>=4.0.4",
+]
